@@ -1,8 +1,7 @@
 from django.urls import path
 
-from receita.views import index,lista_produto
+from receita.views import index
 
 urlpatterns = [
     path('',index),
-    path('produtos/',lista_produto),
 ]
